@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: palevioletred; color: black;">
+    <h3>Personal Particular</h3>
+         <form action="Gulnoza" method="post">
+             <div>
+             <label for="fname">
+                 Name:
+                 <input type="text" id="fname" name="fname">
+            </label>
+                <br>
+            <label for="password">
+                Password:
+            </label>
+            <input  type="pssword" id="password" name="password">
+                <br>
+            <label for="">Male</label>
+                 <input type="radio" name="gender" value="male">
+            <label for="">Female</label>
+                <input type="radio" name="gender" value="female">
+                <br>
+                Age:
+             <input type="text" list="years">
+             <datalist id="years">
+                 <option value="1 years old">1 years old</option>
+                 <option value="2 years old">2 years old</option>
+                 <option value="3 years old">3 years old</option>
+                 <option value="4 years old">4 years old</option>
+                 <option value="5 years old">5 years old</option>
+             </datalist>
+            </div>
+
+             <div>
+                <h3>Languages</h3>
+                <label for="">Java</label>
+                 <input type="radio" name="language" value="java">
+                <label for="">C/C++</label>
+                <input type="radio" name="language" value="C/C++">
+             <label for="">C#</label>
+             <input type="radio" name="language" value="C#">
+         </div>
+
+       <div>
+           <h3>Instruction</h3>
+           <label for="text"></label>
+           <input type="text"  placeholder="Enter your instruction here..." id="instruction" name="instruction">
+       </div>
+         <br>
+       <button>send</button>
+       <button>clear</button>
+        </form>
+    
+</body>
+</html>

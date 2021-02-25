@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color:red;
+}
+.navigation i {
+    border-radius: 25px;
+    border-color: red;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+.navigation h1 {
+    padding-left: 100px;
+}
+section {
+    background-image: url(./photo_2021-01-30_01-09-36.jpg);
+    height: 600px;
+    width: 100%;
+}
+.box {
+    text-align: center;
+    color: red;
+    padding-top: 200px;
+}
+.icon i {
+    padding: 50px;
+}
